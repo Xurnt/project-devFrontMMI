@@ -1,0 +1,24 @@
+{
+  "name": "project-devfrontmmi",
+  "version": "1.0.0",
+  "description": "Projet réalisé pour le cours de devFront en MMI / Project made during the front-end course during a course",
+  "main": "index.js",
+  "dependencies": {
+    "parcel": "^1.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "serve": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xurnt/project-devFrontMMI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xurnt/project-devFrontMMI/issues"
+  },
+  "homepage": "https://github.com/Xurnt/project-devFrontMMI#readme"
+}
