@@ -1,0 +1,13 @@
+@mixin startGrow($height,$name){
+    @keyframes grow#{$name}{
+        100%{
+            height: $height+5vh;
+        }
+    }
+    animation: grow#{$name} 1s;
+    animation-fill-mode: forwards;
+}
+
+
+
+

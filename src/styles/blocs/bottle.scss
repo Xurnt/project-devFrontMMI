@@ -1,0 +1,77 @@
+.bottle{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.bottle__position{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    height:80vh;
+    right: 0%;
+    @include desktop{
+        display: block;
+    }
+}
+
+.bottle__position--left{
+    right: 70vw;
+}
+
+.bottle__jiggle{
+    height: 100%;
+}
+
+.bottle__jiggle:hover{
+    animation: jiggle 0.3s;
+    animation-iteration-count: infinite;
+}
+
+.bottle__image{
+   height: 100%; 
+   width: auto;
+
+}
+
+.bottle__image:hover{
+    @include startGrow(80vh,bottle);
+}
+
+
+
+.bottle__adjectives{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-size: 10vw;
+    font-family: KeepOn;
+    color: $maincolor;
+    height: 100%;
+
+    @include desktop{
+        font-size: 4vw;
+        width: 40vw;
+    }
+}
+
+.bottle__adjective--middle{
+    align-self: flex-end;
+}
+.bottle__letter{
+    @include desktop{
+        opacity: 0;
+    }
+}
+
+.ingredient__image{
+    height: 30vh;
+    width: auto;
+}
+
+.ingredient__image:hover{
+    @include startGrow(30vh,ingredient);    
+}

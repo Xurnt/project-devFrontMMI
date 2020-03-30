@@ -1,0 +1,40 @@
+//Bottle hover
+
+@keyframes jiggle{
+
+    25%{
+        transform: rotate(-3deg);
+    }
+
+    75%{
+        transform: rotate(3deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+//Bottle click
+
+@keyframes goToLeft{
+    100%{
+        right: 70vw;
+    }
+}
+
+@keyframes goToRight{
+    100%{
+        right: 0vw;
+    }
+}
+
+.startGoToLeft{
+    animation: goToLeft 1.2s;
+    animation-fill-mode: forwards;
+}
+
+.startGoToRight{
+    animation: goToRight 1.2s;
+    animation-fill-mode: forwards;
+}

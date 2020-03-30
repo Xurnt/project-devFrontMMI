@@ -2,9 +2,12 @@
 
 @import "config/medias.scss";
 @import "config/variables.scss";
+@import "config/animations.scss";
+@import "config/mixins.scss";
 
-@import "global/layout.scss";
+
 @import "global/typography.scss";
+@import "global/layout.scss";
 
 @import "blocs/brand.scss";
 @import "blocs/bottle.scss";

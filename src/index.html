@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>C'est parti mon coco</title>
     <link rel="stylesheet" href="styles/style.scss" />
+    <script defer src="scripts/bottle.js"></script>
   </head>
   <body>
     <header class="brand">
@@ -13,10 +14,11 @@
     </header>
     <main>
       <section class="bottle">
-        <img src="./assets/img/bottle.png" alt="image Bouteille" class="bottle__image" />
-        <div class="bottle__adjectives">
-          <p class="bottle__adjective"></p>
-          <p class="bottle__adjective"></p>
+        <div class="bottle__position" id="bottle"><div class="bottle__jiggle"><img src="./assets/img/bottle.png" alt="image Bouteille" class="bottle__image" /></div></div>
+        <div class="bottle__adjectives" id="adjectives">
+          <p class="bottle__adjective"><span>E</span><span>x</span><span>o</span><span>t</span><span>i</span><span>q</span><span>u</span><span>e</span></p>
+          <p class="bottle__adjective bottle__adjective--middle"><span class="bottle__letter">R</span><span class="bottle__letter">a</span><span class="bottle__letter">f</span><span class="bottle__letter">f</span><span class="bottle__letter">r</span><span class="bottle__letter">a</span><span class="bottle__letter">i</span><span class="bottle__letter">c</span><span class="bottle__letter">h</span><span class="bottle__letter">i</span><span class="bottle__letter">s</span><span class="bottle__letter">s</span><span class="bottle__letter">a</span><span class="bottle__letter">n</span><span class="bottle__letter">t</span></p>
+          <p class="bottle__adjective"><span>E</span><span>n</span><span>e</span><span>r</span><span>g</span><span>i</span><span>q</span><span>u</span><span>e</span></p>
         </div>
 
       </section>
