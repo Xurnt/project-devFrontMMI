@@ -1,0 +1,17 @@
+.brand {
+  width: 100vw;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 3%;
+}
+
+.brand__logo {
+  flex-basis: 30%;
+}
+
+.brand__catchphrase {
+  font-family: FuturaCon;
+  font-size: 6vw;
+  margin-left: 10%;
+}
