@@ -11,7 +11,7 @@
     cursor: pointer;
     position: absolute;
     height:80vh;
-    right: 0%;
+    right: 5vw;
     @include desktop{
         display: block;
     }
@@ -21,40 +21,41 @@
     right: 70vw;
 }
 
-.bottle__jiggle{
-    height: 100%;
-}
-
-.bottle__jiggle:hover{
-    animation: jiggle 0.3s;
-    animation-iteration-count: infinite;
-}
-
 .bottle__image{
-   height: 100%; 
+   height: 93.75%; 
    width: auto;
-
 }
 
 .bottle__image:hover{
-    @include startGrow(80vh,bottle);
+    @include startJiggle;
 }
+
+
 
 
 
 .bottle__adjectives{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-evenly;
-    font-size: 10vw;
+    font-size: 9vw;
     font-family: KeepOn;
-    color: $maincolor;
+    color: $textcolor;
     height: 100%;
 
     @include desktop{
+        align-items: flex-start;
         font-size: 4vw;
         width: 40vw;
+    }
+}
+
+.bottle__adjective{
+    @include startJiggle;
+
+    @include desktop{
+        animation: none;
     }
 }
 
@@ -65,13 +66,4 @@
     @include desktop{
         opacity: 0;
     }
-}
-
-.ingredient__image{
-    height: 30vh;
-    width: auto;
-}
-
-.ingredient__image:hover{
-    @include startGrow(30vh,ingredient);    
 }

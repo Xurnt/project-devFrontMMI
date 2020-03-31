@@ -4,6 +4,7 @@
   justify-content: start;
   align-items: center;
   height: 10vh;
+  padding: 5%;
   @include desktop{
     width: 50vw;
   }
@@ -22,3 +23,4 @@
     font-size: 2vw;
   }
 }
+

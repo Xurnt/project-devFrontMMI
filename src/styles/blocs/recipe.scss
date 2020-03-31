@@ -1,0 +1,23 @@
+.recipe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height:400vh;
+    overflow: hidden;
+    @include tablet{
+    height:280vh;
+
+    }
+    @include desktop{
+    height:150vh;
+        flex-basis: 40%;
+    }
+}
+
+.recipe__ingredients{
+    @include styleTitle;
+    text-align: center;
+    padding: 7%;
+    flex-basis: 5%;
+}

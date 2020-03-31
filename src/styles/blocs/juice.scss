@@ -1,0 +1,10 @@
+.juice{
+    padding: 5%;
+    background-color: $juicecolor;
+    display: flex;
+    flex-direction: column;
+    @include desktop{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+}

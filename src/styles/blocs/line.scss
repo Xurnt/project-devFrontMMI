@@ -1,0 +1,9 @@
+.line{
+    width: 0vw;
+    animation: line 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;;
+    border: 1px solid $textcolor;
+    position: absolute;
+    left: 0;
+  }

@@ -1,0 +1,15 @@
+.product{
+    text-align: center;
+    @include desktop{
+        flex-basis: 50%;
+    }
+}
+
+.product__catchphrase{
+    @include styleTitle;
+}
+
+.product__description{
+    padding-top: 5%;
+    @include styleText;
+}

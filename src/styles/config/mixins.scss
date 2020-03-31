@@ -1,13 +1,32 @@
-@mixin startGrow($height,$name){
-    @keyframes grow#{$name}{
-        100%{
-            height: $height+5vh;
-        }
+@mixin startJiggle{
+    animation: jiggle 0.3s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+@mixin styleTitle{
+    color: $textcolor;
+    font-family: KeepOn;
+    font-size: 8vw;
+    @include tablet{
+        font-size: 6vw;
     }
-    animation: grow#{$name} 1s;
-    animation-fill-mode: forwards;
+    @include desktop{
+        font-size: 4vw;
+    }
 }
 
 
 
-
+@mixin styleText{
+    text-align: center;
+    color: $textcolor;
+    font-family: FuturaCon;
+    font-size: 7vw;
+    @include tablet{
+        font-size: 4vw;
+    }
+    @include desktop{
+        font-size: 2vw;
+    }
+}

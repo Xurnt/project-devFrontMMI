@@ -5,10 +5,3 @@
 img {
   max-width: 100%;
 }
-
-body{
-  padding: 5%;
-  @include tablet{
-    padding:3%;
-  }
-}

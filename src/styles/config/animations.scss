@@ -1,3 +1,12 @@
+//Animate line
+
+@keyframes line{
+    100%{
+        width: 100vw;
+        opacity: 0;
+    }
+}
+
 //Bottle hover
 
 @keyframes jiggle{
@@ -25,7 +34,7 @@
 
 @keyframes goToRight{
     100%{
-        right: 0vw;
+        right: 5vw;
     }
 }
 
