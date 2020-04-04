@@ -1,3 +1,7 @@
 .beach{
-    background-image: linear-gradient(to bottom,white, #41b9ff,60%)
+      animation: water 8s;
+      animation-iteration-count: infinite;
+      background-image: linear-gradient(to bottom,#41b9ff, white);
+      background-size: 150% 150%;
+      background-position: 0% 0%;
 }

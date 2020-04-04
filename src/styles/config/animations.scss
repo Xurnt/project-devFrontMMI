@@ -1,10 +1,13 @@
-//Animate line
 
-@keyframes line{
-    100%{
-        width: 90vw;
-        opacity: 0;
+
+//Animate water
+
+@keyframes water{
+
+    50%{
+        background-position:0% 100%;
     }
+
 }
 
 //Bottle hover
