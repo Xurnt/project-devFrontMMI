@@ -1,12 +1,16 @@
 .product{
     text-align: center;
+    grid-area: product;
     @include desktop{
         flex-basis: 50%;
+
     }
+
 }
 
 .product__catchphrase{
     @include styleTitle;
+    
 }
 
 .product__description{

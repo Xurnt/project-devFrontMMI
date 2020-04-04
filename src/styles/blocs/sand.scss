@@ -1,0 +1,13 @@
+.sand{
+    padding: 5%;
+    background-color: $juicecolor;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 8fr 1fr; 
+    grid-template-areas: "product" "recipe" "pub";
+    @include desktop{
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 5fr; 
+        grid-template-areas: "recipe product" "recipe pub";
+    }
+}
