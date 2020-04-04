@@ -14,3 +14,11 @@
     @include styleTitle;
 }
 
+.pub__video{
+
+    @include desktop{
+        flex-basis: 60%;
+        width: 60%;
+    }
+
+}
