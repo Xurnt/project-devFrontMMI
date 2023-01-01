@@ -4,7 +4,7 @@
   "description": "Projet réalisé pour le cours de devFront en MMI / Project made during the front-end course during a course",
   "main": "index.js",
   "dependencies": {
-    "parcel": "^1.12.4"
+    "parcel": "^2.8.2"
   },
   "devDependencies": {
     "sass": "^1.26.3"
